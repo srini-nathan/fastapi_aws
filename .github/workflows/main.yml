@@ -4,7 +4,7 @@ on:
   #Trigger the workflow on push
   push:
     #Push events on the branch
-    branches: [master, development, release/**]
+    branches: [main, development, release/**]
 jobs:
   CI:
     runs-on: ubuntu-latest
